@@ -1,0 +1,27 @@
+const AdminDashboard = () => {
+  return (
+    <div className='h-screen w-full flex flex-col bg-black text-white'>
+        <Header/>
+       <div className='flex-1 flex justify-center items-center text-sm'>
+        <div className='p-6 w-[350px] border bg-[#1a1a1a] border-blue-900 rounded-md '>
+            <form className='flex flex-col p-1 w-full'>
+                <h1 className='pb-6 font-semibold text-2xl'>Create Task</h1>
+                <h3 className='mb-1'>Task Title</h3>
+                <input className='mb-4 border-2 border-gray-700 rounded bg-[#363636] placeholder-[rgb(148,145,145)] w-full p-2' type="text" placeholder='Make a UI Design' />
+                <h3 className='mb-1'>Description</h3>
+                <textarea className='mb-4 border-2 border-gray-700 rounded bg-[#363636] placeholder-[rgb(148,145,145)] h-[130px] w-full' name="" id="" cols="30" rows="10" placeholder='Detailed description of task (Max 500 words)'></textarea>
+                <h3 className='mb-1'>Date</h3>
+                <input className='mb-4 border-2 border-gray-700 rounded bg-[#363636] w-full p-2' type="date" />
+                <h3 className='mb-1'>Assign to</h3>
+                <input className='mb-4 border-2 border-gray-700 rounded bg-[#363636] placeholder-[rgb(148,145,145)]  w-full p-2' type="text" />
+                <h3 className='mb-1'>Category</h3>
+                <input className='mb-4 border-2 border-gray-700 rounded bg-[#363636] placeholder-[rgb(148,145,145)]  w-full p-2' placeholder='Design, Development, etc.' type="text" />
+                <button className='w-full bg-black border-2 border-black rounded-lg'>Create Task</button>
+            </form>
+        </div>
+        </div>
+    </div>
+  )
+}
+
+export default AdminDashboard
