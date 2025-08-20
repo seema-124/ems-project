@@ -5,12 +5,23 @@ Employee Management System built with React.js
 
 A responsive web application built with React.js for managing employee records.
 
-## 📌 Features
+📄 Pages Included
 
-- Add, edit, delete employees
-- Responsive landing page
-- Fixed navigation menu that changes on scroll
-- Clean and modern UI
+🔑 Login Page – Secure access for admin & employees
+
+🛠️ Admin Page – View all employees, assign tasks, and manage records
+
+👨‍💻 Employee Page – View assigned tasks and updates
+
+📌 Key Features
+
+✅ Assign new tasks to employees
+
+✅ Responsive landing page
+
+✅ Admin login with task management
+
+✅ Clean & modern UI
 
 ## 🛠️ Tech Stack
 
